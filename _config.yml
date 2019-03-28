@@ -1,5 +1,6 @@
 
 ############# SITE PROPERTIES #############
+name: Dokumentasjon av fellesløsningarna
 
 # localhost port (can be anything)
 port: 4000
@@ -69,7 +70,7 @@ github_button_location_below_title: false
 github_button_location_page_bottom: false
 
 # link to your github repo. replace <organization> (if applicable) and <repo name> and <branch name>. Note that the github link will be {{site.github_editme_path}}/{{page.path}}
-github_editme_path: https://github.com/difi/dokumentasjonsprosjektet/blob/gh-pages
+github_editme_path: https://johan0stman.github.io/dokumentasjonsprosjektet/blob/gh-pages
 
 
 ############# EXCLUDE LIST #############
@@ -162,13 +163,13 @@ google_analytics_code:
 # you can modify the breadcrumb in _includes/breadcrumb.html
 
 # Display breadcrumbs at all?
-breadcrumb_display: false
+breadcrumb_display: true
 
 # Display Home path in breadcrumb?
 breadcrumb_home_display: true
 
 # Url for Home path to point to
-breadcrumb_home_url: https://github.com/difi/dokumentasjonsprosjektet
+breadcrumb_home_url: https://johan0stman.github.io/dokumentasjonsprosjektet
 
 ##########  MARKDOWN PROCESS AND FILTER ##########
 # leave these settings as is unless you want to use something other than kramdown Markdown

@@ -39,7 +39,7 @@ Etter timeout hos en tjenesteleverandør, skal brukerens nettleser ved neste htt
 Det må bemerkes at timeout hos en tjenesteleverandør ikke nødvendigvis medfører at brukeren blir tvunget til å logge på ID-porten. Hvis brukeren har en aktiv sesjon hos ID-porten, kan denne svare på forespørselen fra tjenesteleverandør uten brukerdialog (dvs. foreta single sign-on). Brukeren vil dermed ikke oppdage at sesjonen blir fornyet (bortsett fra at hans nettleser muligens ”blinker” et kort øyeblikk).
 
 Hvis en tjenesteleverandør av sikkerhetsmessige grunner vil sikre seg at brukeren blir tvunget til aktiv pålogging i ID-porten, kan man sette parameteren 
-[ForceAuthn=true i kallet til ID-porten.](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#forceauthn)
+[ForceAuthn=true i kallet til ID-porten.](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#forceauthn)
 
 ### Caching
 

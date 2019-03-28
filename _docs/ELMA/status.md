@@ -200,6 +200,6 @@ MOVE-1103 - Broken delete button removed
 
 - Visual changes to some of the information in views will be changed. For instance in the participant view
 - Date of registration will be added to participants.
-- Please note that our user guide for the Web ui is available here [https://difi.github.io/spike-elma/elma.html](https://difi.github.io/spike-elma/elma.html) 
+- Please note that our user guide for the Web ui is available here [https://johan0stman.github.io/spike-elma/elma.html](https://johan0stman.github.io/spike-elma/elma.html) 
 - When deleting participants from the UI you will be required to confirm this action.
 

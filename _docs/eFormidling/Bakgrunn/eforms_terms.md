@@ -48,4 +48,4 @@ product: eFormidling
 [AsicLink]: http://www.etsi.org/deliver/etsi_ts/102900_102999/102918/01.03.01_60/ts_102918v010301p.pdf
 [BestEduInternlink]: api.html
 [NextMoveInternlink]: api.html
-[OidcLink]: https://difi.github.io/idporten-oidc-dokumentasjon/
+[OidcLink]: https://johan0stman.github.io/idporten-oidc-dokumentasjon/

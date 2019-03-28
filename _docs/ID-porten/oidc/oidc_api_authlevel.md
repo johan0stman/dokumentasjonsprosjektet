@@ -20,7 +20,7 @@ Denne tjenesten er en tilleggstjeneste i ID-porten. Se [https://samarbeid.difi.n
 
 ## Bruk av Oauth2
 
-REST-grensesnittet er sikret vha. [server-til-server Oauth](https://difi.github.io/idporten-oidc-dokumentasjon//4_server-to-server-oauth2.html).
+REST-grensesnittet er sikret vha. [server-til-server Oauth](https://johan0stman.github.io/idporten-oidc-dokumentasjon//4_server-to-server-oauth2.html).
 
 
 Følgende scopes aksepteres av grensesnittet:

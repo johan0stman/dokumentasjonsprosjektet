@@ -20,7 +20,7 @@ Denne tjenesten er en tilleggstjeneste i ID-porten. Se [https://samarbeid.difi.n
 
 ## REST-grensesnittet
 
-REST-grensesnittet er beskyttet med Oauth2 og er basert på at innkommende access token tilhører innlogget bruker,  såkalt  [autentiseringsnær autorisasjon](https://difi.github.io/idporten-oidc-dokumentasjon/oidc_auth_oauth2.html), kunden skal derfor ikke oppgi fødselsnummer selv.
+REST-grensesnittet er beskyttet med Oauth2 og er basert på at innkommende access token tilhører innlogget bruker,  såkalt  [autentiseringsnær autorisasjon](https://johan0stman.github.io/idporten-oidc-dokumentasjon/oidc_auth_oauth2.html), kunden skal derfor ikke oppgi fødselsnummer selv.
 
 Følgende Oauth2 scopes aksepteres av grensesnittet:
 

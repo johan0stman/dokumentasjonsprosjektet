@@ -23,7 +23,7 @@ Metadata definerer hva som er tillatt
 
 ### Typisk metadata-fil
 
-Her er eksempel på en metadatafil. Forklaring på hva som må være med, se [hurtigsjekk av metadata](https://difi.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html#hurtigsjekk-av-metadata)
+Her er eksempel på en metadatafil. Forklaring på hva som må være med, se [hurtigsjekk av metadata](https://johan0stman.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html#hurtigsjekk-av-metadata)
 ```xml
 <EntityDescriptor entityID="testsp2" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
     <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">

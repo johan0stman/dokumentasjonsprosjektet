@@ -25,7 +25,7 @@ Ta kontakt med idporten@difi.no for å få tilgang til å bruke tjenesten.
 
 ## Bruk av Oauth2
 
-REST-grensesnittet er sikret vha. [server-til-server Oauth](https://difi.github.io/idporten-oidc-dokumentasjon//4_server-to-server-oauth2.html).
+REST-grensesnittet er sikret vha. [server-til-server Oauth](https://johan0stman.github.io/idporten-oidc-dokumentasjon//4_server-to-server-oauth2.html).
 
 Følgende scopes benyttes for å få tilgang til grensesnittet:
 

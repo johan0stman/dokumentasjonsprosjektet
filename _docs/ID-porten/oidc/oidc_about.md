@@ -13,7 +13,7 @@ Disse sidene er dokumentasjonen av ID-porten sin OpenID Connect provider.  Dokum
 
 ## Teknisk
 
-* Sidene publiseres vha [GitHub Pages](https://pages.github.com/) på [https://difi.github.io/idporten-oidc-dokumentasjon/](https://difi.github.io/idporten-oidc-dokumentasjon/)
+* Sidene publiseres vha [GitHub Pages](https://pages.github.com/) på [https://johan0stman.github.io/idporten-oidc-dokumentasjon/](https://johan0stman.github.io/idporten-oidc-dokumentasjon/)
 * Sidene er skrevet i [markdown](https://guides.github.com/features/mastering-markdown/) og benytter et tema/layout basert på [Jekyll Documentation Theme av Tom Johnson](https://github.com/tomjohnson1492/documentation-theme-jekyll).
 * Grafer og sekvensdiagram blir generert direkte i brukers browser, basert på  [mermaid](https://knsv.github.io/mermaid/).
 * [Atom](https://atom.io/) med [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/)-plugin er anbefalt til å skriving.

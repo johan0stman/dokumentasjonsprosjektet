@@ -39,7 +39,7 @@ ID-portens tjenestetilbud for autentisering kan funksjonelt oppsummeres slik:
 
 ### Innlogging
 
-Dette er en overordnet beskrivelse av innloggingstjenesten. For detaljer se [Detaljert beskrivelse av teknisk løsning.](https://difi.github.io/idporten-integrasjonsguide//4_detaljert_beskrivelse.html)
+Dette er en overordnet beskrivelse av innloggingstjenesten. For detaljer se [Detaljert beskrivelse av teknisk løsning.](https://johan0stman.github.io/idporten-integrasjonsguide//4_detaljert_beskrivelse.html)
 
 #### **Protokoll**
 
@@ -64,17 +64,17 @@ Tjenesteleverandør kan sende en forespørsel om innlogging til ID-porten. Fores
 
 | Parameter | Beskrivelse | Referanse | 
 | --- | --- |--- |
-| Autentiseringsnivå | Styrer hvilke e-ID-er brukeren kan velge | [RequestedAuthnContext](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#requestedauthncontext) | 
-| Reautentisering | Vil _kreve_ at brukeren gjennomfører autentisering | [ForceAuthn](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#forceauthn) | 
-| Språk | Styrer hvilket språk ID-porten blir vist i | [Locale](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#locale) | 
-| OnBehalfOf | Identiteten til tjenesteeieren som innloggingen gjøres på vegne av | [onBehalfof](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#overføring-av-informasjon-om-tjenesteeier-for-leverandører) | 
+| Autentiseringsnivå | Styrer hvilke e-ID-er brukeren kan velge | [RequestedAuthnContext](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#requestedauthncontext) | 
+| Reautentisering | Vil _kreve_ at brukeren gjennomfører autentisering | [ForceAuthn](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#forceauthn) | 
+| Språk | Styrer hvilket språk ID-porten blir vist i | [Locale](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#locale) | 
+| OnBehalfOf | Identiteten til tjenesteeieren som innloggingen gjøres på vegne av | [onBehalfof](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#overføring-av-informasjon-om-tjenesteeier-for-leverandører) | 
 
 Svaret tjenesteleverandøren får etter en autentisering er en referanse-id som kan brukes for å hente ut personinformasjon, vha en personopplysningsforespørsel
 
 #### **Personopplysningsforespørsel**
 
 Tjenesteleverandør skal etter vellykket autentisering hente ut personinformasjon om brukeren og autentiseringen. Hvilken informasjon som er tilgjengelig for tjenesteleverandør er dokumentert i 
-[ArtifactResponse](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#artifactresponse)
+[ArtifactResponse](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#artifactresponse)
 Merk at det er mulig for tjenesteleverandør å spesifisere hvilke attributter de ønsker utlevert fra ID-porten om det ønskes.
 
 ### Utlogging
@@ -100,7 +100,7 @@ Dersom sluttbruker er innlogget hos tjenesteeier A og velger å gå videre til e
 
 #### **Sesjonstid**
 
-Tjenesteleverandør og ID-porten holder egne sesjoner mot sluttbruker som ikke er avhengig av hverandre. Difi anbefaler at tjenesteleverandør bruker samme sesjonstider som ID-porten, [Sesjonshåndtering](https://difi.github.io/idporten-integrasjonsguide//4_detaljert_beskrivelse.html#sesjonshåndtering) for mer detaljer
+Tjenesteleverandør og ID-porten holder egne sesjoner mot sluttbruker som ikke er avhengig av hverandre. Difi anbefaler at tjenesteleverandør bruker samme sesjonstider som ID-porten, [Sesjonshåndtering](https://johan0stman.github.io/idporten-integrasjonsguide//4_detaljert_beskrivelse.html#sesjonshåndtering) for mer detaljer
 
 #### **Sesjonsoppgradering**
 
@@ -108,7 +108,7 @@ Det er mulig for en sluttbruker å gjennomføre en autentisering på nivå 3 og 
 
 #### **Kontakt- og Reservasjonsregisteret**
 
-Kontakt- og reservasjonsregisteret er en felleskomponent i offentlig sektor for sentralt ajourhold av kontaktinformasjon for sluttbruker. ID-porten er integrert mot registrert og kan videreformidle informasjon fra registeret i forbindelse med en autentiseringsforespørsel. Dette er en tilleggstjeneste for ID-porten som kan bestilles av de tjenesteeiere som har tatt i bruk registeret., se [Integrasjonsguide for Oppslagstjenesten](https://difi.github.io/oppslagstjenesten-integrasjonsguide/1_hva_er_oppslagstjenesten).
+Kontakt- og reservasjonsregisteret er en felleskomponent i offentlig sektor for sentralt ajourhold av kontaktinformasjon for sluttbruker. ID-porten er integrert mot registrert og kan videreformidle informasjon fra registeret i forbindelse med en autentiseringsforespørsel. Dette er en tilleggstjeneste for ID-porten som kan bestilles av de tjenesteeiere som har tatt i bruk registeret., se [Integrasjonsguide for Oppslagstjenesten](https://johan0stman.github.io/oppslagstjenesten-integrasjonsguide/1_hva_er_oppslagstjenesten).
 
 #### **Alternative innlogingsmetoder**
 
@@ -124,4 +124,4 @@ En tjeneste kan velge å kun støtte pålogging fra europeisk brukere, eller å 
 
 For alle europeiske eID vil ID-porten forsøke å framskaffe et eventuelt norsk d-nummer/fødselsnummer fra Det Sentrale Folkeregister (DSF). Hvis et d-nummer ikke ble funnet, eller ved integrasjonsproblem mot DSF, vil ID-porten likevel fullføre autentiseringen. Dette betyr at fravær av D-nummer/fødselsnummer ikke entydig garanterer at personen ikke har fått tildelt d-nummer.
 
-[Videre lesing: Teknisk: innlogging](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html)
+[Videre lesing: Teknisk: innlogging](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html)

@@ -16,7 +16,7 @@ product: ID-porten
 
 ### Eksempel på metadatafil
 
-Her er eksempel på en metadatafil. Forklaring på hva som må være med, se [hurtigsjekk av metadata](https://difi.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html#hurtigsjekk-av-metadata) under eksempelet.
+Her er eksempel på en metadatafil. Forklaring på hva som må være med, se [hurtigsjekk av metadata](https://johan0stman.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html#hurtigsjekk-av-metadata) under eksempelet.
 ```xml
 <EntityDescriptor entityID="testsp2" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
     <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">

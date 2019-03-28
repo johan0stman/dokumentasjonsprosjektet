@@ -38,7 +38,7 @@ Vi ønsker at alle tjenester skal verifiseres via testmiljøet før de går i pr
 
 ## Test
 
-Det må utføres en rekke verifikasjonstester for å teste blant annet innlogging og utlogging. [Verifikasjonstester finner du her](https://difi.github.io/idporten-integrasjonsguide//96_verifikasjonstest.html).  
+Det må utføres en rekke verifikasjonstester for å teste blant annet innlogging og utlogging. [Verifikasjonstester finner du her](https://johan0stman.github.io/idporten-integrasjonsguide//96_verifikasjonstest.html).  
 
 
 ### Testbrukere

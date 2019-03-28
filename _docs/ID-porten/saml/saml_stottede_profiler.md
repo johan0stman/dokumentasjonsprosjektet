@@ -61,7 +61,7 @@ Følgende regelsett gjelder for SSO profilen i ID-porten:
 * *AuthnRequest* kan inneholde *samlp:Extensions*. 
 
 Følgende *samlp:Extensions* støttes av ID-porten:
-* *idpe:OnBehalfOf* Unik identifikator av tjenesteeier. _Må_ kun inneholde følgende tegn: A-Z a-z 0-9  [se XSD-skjema.](https://difi.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html#saml-extension) ID og navnekonvensjon blir satt i samråd med Difi.
+* *idpe:OnBehalfOf* Unik identifikator av tjenesteeier. _Må_ kun inneholde følgende tegn: A-Z a-z 0-9  [se XSD-skjema.](https://johan0stman.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html#saml-extension) ID og navnekonvensjon blir satt i samråd med Difi.
 
 #### **Overstyring av NameID**
 
@@ -192,4 +192,4 @@ Forutsatt at SPs tilgangskontroll aksepterer tilgang fra denne autentiserte bruk
 * Identity Provider Discovery profile og IdP Discovery er ikke støttet i ID-porten. ID-porten er eneste IDP
 * Attribute Query/Request profile
 
-[Videre lesing: Mer om metadata og SAML](https://difi.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html)
+[Videre lesing: Mer om metadata og SAML](https://johan0stman.github.io/idporten-integrasjonsguide//91_metadata_og_mer_saml.html)

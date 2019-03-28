@@ -84,7 +84,7 @@ ID-porten støtter følgende språk:
 
 I de tilfeller der tjenesteleverandør ikke sender over språkvalg, vil ID-porten benytte språket som er satt i nettleseren. Er nettleseren innstilt på et språk som ID-porten ikke støtter, vil ID-porten velge standardspråket bokmål.
 
-ID-porten sender over språket som er brukt ved innlogging i [assertion til tjenesteleverandør](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#artifactresponse)
+ID-porten sender over språket som er brukt ved innlogging i [assertion til tjenesteleverandør](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#artifactresponse)
 
 Her er et eksempel på hvordan en forespørsel med språk ser ut: 
 ```xml
@@ -168,6 +168,6 @@ Følgende attributter legges ved i assertion:
 
 #### **AuthnContextClassRef som informasjonsbærer om sikkerhetsnivå**
 
-Assertion vil alltid inneholde informasjon om sikkerhetsnivå benyttet under autentisering. Til dette benyttes AuthnContextClassRef på samme måte som i autentiseringsforespørselen. Se [tabell knyttet til autentiseringsforespørsel](https://difi.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#requestedauthncontext) for spesifisering av gyldige klasser støttet i ID-porten og deres tilhørende autentiseringsnivå. 
+Assertion vil alltid inneholde informasjon om sikkerhetsnivå benyttet under autentisering. Til dette benyttes AuthnContextClassRef på samme måte som i autentiseringsforespørselen. Se [tabell knyttet til autentiseringsforespørsel](https://johan0stman.github.io/idporten-integrasjonsguide//3_teknisk_innlogging.html#requestedauthncontext) for spesifisering av gyldige klasser støttet i ID-porten og deres tilhørende autentiseringsnivå. 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Teknisk dokumentasjon av digitale fellesløsninger"
+title: "OTeknisk dokumentasjon av digitale fellesløsninger"
 permalink: index.html
 sidebar: main_sidebar
 layout: default

@@ -54,7 +54,7 @@ link_type: jurl
 show_feedback: true
 
 # email address feedback gets sent to
-feedback_email: someemail@gmail.com
+feedback_email: someone@difi.com
 
 # note: to customize the auto-completed body text, overwrite it by adding _includes/feedback.html in your own theme.
 

@@ -308,6 +308,17 @@ footer {
   margin: 5px 2px;
 }
 
+.fa-rss {
+    padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  background: #55ACEE;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
 .fa-twitter {
     padding: 10px;
   font-size: 20px;

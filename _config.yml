@@ -3,6 +3,8 @@
 name: Dokumentasjon av fellesløsninger
 url: https://johan0stman.github.io/dokumentasjonsprosjektet
 
+rss: true
+
 # localhost port (can be anything)
 port: 4000
 

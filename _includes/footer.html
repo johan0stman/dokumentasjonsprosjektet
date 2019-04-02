@@ -39,7 +39,17 @@
 
             <div class="col-md-4 col-sm-6 paddingtop-bottom ">
 
-
+              {% if site.footer-links-active.rss %}
+              <li>
+                <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
+                  <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="sr-only">RSS</span>
+                </a>
+              </li>
+              {% endif %}
 
 
               <div class="logofooter"><img class="navbar-logo" src="{{site.logo}}"/></div>
